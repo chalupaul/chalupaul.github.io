@@ -66,25 +66,52 @@ ul.posts span {
 /*****************************************************************************/
 
 .site {
-  font-size: 115%;
+  font-size: 100%;
   text-align: justify;
-  width: 60em;
+  width: 80em;
   margin: 3em auto 2em;
   line-height: 1.5em;
 }
 
-.site .header a {
+.site-left {
+  width: 60%;
+  padding-right: 4em;
+  float: left;
+}
+
+h2.page-title {
+    font-size: 115%;
+}
+
+.site-right {
+  padding-left: 2em;
+  width: 28%;
+  float:left;
+}
+
+img.float-left {
+  float: left;
+  margin: 12px;
+}
+
+img.float-right {
+  float: right;
+  margin: 12px;
+}
+
+.site .site-left .header a {
   font-weight: bold;
   text-decoration: none;
 }
 
-.site .header h1.title {
+.site .site-left .header h1.title {
   display: inline-block;
   margin-bottom: 2em;
 }
 
-.site .header h1.title a {
+.site .site-left .header h1.title a {
   color: #a00;
+  font-size: 135%;
 }
 
 .site .header h1.title a:hover {
@@ -110,6 +137,7 @@ ul.posts span {
   border-top: 4px solid #eee;
   margin-top: 2em;
   overflow: hidden;
+  width: 100%;
 }
 
 .site .footer .contact {
@@ -138,6 +166,7 @@ ul.posts span {
 /*****************************************************************************/
 
 /* standard */
+
 .post pre {
   border: 1px solid #ddd;
   background-color: #eef;
