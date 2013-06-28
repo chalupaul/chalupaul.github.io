@@ -59,6 +59,29 @@ ul.posts span {
   font-size: 80%;
 }
 
+.navigation {
+  padding-top: 15px;
+}
+
+.previous {
+  float: left;
+  width: 33%;
+  text-align: left;
+}
+
+.page-number {
+  float: left;
+  width: 33%;
+  text-align: center;
+}
+
+.next {
+  float: right;
+  width: 33%;
+  text-align: right;
+}
+
+
 /*****************************************************************************/
 /*
 /* Site
