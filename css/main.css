@@ -89,15 +89,27 @@ h2.page-title {
   float:left;
 }
 
-img.float-left {
+.float-left {
   float: left;
   margin: 12px;
 }
 
-img.float-right {
+.float-right {
   float: right;
   margin: 12px;
 }
+
+.sexy-line { 
+  margin-top: 20px;
+  margin-bottom: 10px;
+  display:block;
+  border:none;
+  color:white;
+  height:1px;
+  background:black;
+  background: -webkit-gradient(radial, 50% 50%, 0, 50% 50%, 125, from(#000), to(#fff));
+}
+
 
 .site .site-left .header a {
   font-weight: bold;
@@ -132,10 +144,7 @@ img.float-right {
 }
 
 .site .footer {
-  font-size: 80%;
-  color: #666;
-  border-top: 4px solid #eee;
-  margin-top: 2em;
+  padding-top: 2em;
   overflow: hidden;
   width: 100%;
 }
