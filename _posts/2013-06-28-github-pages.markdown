@@ -2,7 +2,7 @@
 layout: post
 title:  "github pages"
 date:   2013-06-28 12:15:29
-categories: github update
+categories: [github, updates]
 ---
 
 So, I am starting the old blog engine back up, but this time focused on tech things first, and ramblings second. Who knows, rambles may be easier to make.

@@ -2,7 +2,7 @@
 layout: post
 title: "Python Argparse"
 date: 2013-07-02 14:53:49
-categories: 
+categories: [python]
 ---
 
 Python's argparse has always felt a lot like java to me. Any time I'm making collecion objects, calling methods to make new objects to attach to said collection objects, and making yet another layer of collection objects on top of that, I think java.
