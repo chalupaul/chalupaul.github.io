@@ -34,7 +34,7 @@ But what if you don't know what module you are looking for? For example, I recen
 
 The standards between these APIs aren't exactly similar enough to be able to follow one set of filters, so I wanted to write the specific filters with 3 methods: One method to load the endpoints of a particular service, one method to generate the proper url to reach an endpoint, and one method to interpret API details of an endpoint. It's totally OK to shove all sorts of custom code into here as long as they return a dict in the right format: {noun: {verb: {option: flags: flag_values}}}.
 
-There is no built in way with python to do these imports. What I wanted is to basically do "import filters" and it would import filters.UserFilter, filters.XxxFilter, etc. I can do from filters import \*, but then it merges all that crap into my current namespace (I don't feel like it's appropriate to have classes like "User" floating around when they should really be namespace'd at "filters.User"). So other than the real answer (use a different language), you can put things like this in a package's \_\_init\_\_.py:
+There is no built in way with python to do these imports. What I wanted is to basically do "import filters" and it would import filters.UserFilter, filters.XxxFilter, etc. I can do "from filters import \*", but then it merges all that crap into my current namespace (I don't feel like it's appropriate to have classes like "User" floating around when they should really be namespace'd at "filters.User"). So other than the real answer (use ruby lol), you can put things like this in a package's \_\_init\_\_.py:
 
 {% highlight python linenos=table %}
 __all__ = ["one", "two"]
@@ -60,6 +60,8 @@ Now you can do this:
 <pypackage.one.One object at 0x108652d50>
 >>>
 {% endhighlight %}
+
+As a side effect, "from pypackage import \*" will now work as well because you populated \_\_all\_\_.
 
 So that's all well and good. Now you can load a package and it will auto-load anything in your \_\_all\_\_. Probably the best hack possible for a crummy situation. But there's one thing missing. You need to be able to do something with these modules. Let's add a method that prints out a random URL for you to do something with to each class. For this example, we can put the same method in both One() and Two():
 
@@ -92,9 +94,9 @@ def urls():
             for x in __all__]
 {% endhighlight %}
 
-So globals() is ironically used in this place, because it is "global" in the scope of the _calling module_, so it's not really global haha. But it's a dict of the symbol table of the current module. I don't particularly like this becaues I kind of think \_\_init\_\_.py is an abomination, and a terrible place to put code. I suppose that's just my opinion.
+So globals() is ironically used in this place, because it is "global" in the scope of the _calling module_, so it's not really global haha. But it's a dict of the symbol table of the current module. I don't particularly like this becaues I kind of think \_\_init\_\_.py is an abomination, and a certainly a questionable place to put code. I suppose that's just my opinion.
 
-But, now you can do this:
+Anyway, now you can do this:
 
 {% highlight console %}
 >>> import pypackage
@@ -104,3 +106,50 @@ But, now you can do this:
 {% endhighlight %}
 
 And that is called "making the best of a poorly designed language" haha.
+
+Oh one more thing. As you inevitably have to hack more and more stuff like this into your growing codebase, you're going to feel the need to pull that out of \_\_init\_\_.py into something a little more dev friendly. There's probably a few ways to skin that cat though. We're going to create a helper file that gets loaded int othe module directly to provide urls(), but won't be callable directly (often desired for stuff that just init things). You have to refactor the urls() function to be external to pypackage directly:
+
+pypackage/__bootstrap__.py:
+{% highlight python linenos=table %}
+import pypackage
+def urls():
+    return [getattr(
+                getattr(pypackage, x),
+                x.capitalize()
+            ).url()
+            for x in pypackage.__all__]
+{% endhighlight %}
+
+and the final pypackage/__init__.py:
+{% highlight python linenos=table %}
+__all__ = ["one", "two"]
+[__import__('.'.join([__name__, x])) for x in __all__]
+
+from __bootstrap__ import *
+del __bootstrap__
+{% endhighlight %}
+
+So here's the finished results. The functions were imported, and there's no \_\_bootstrap\_\_ in there to confuse users. I added some pprint stuff in here so it would display nicely.:
+
+{% highlight console %}
+>>> from pprint import pprint
+>>> import pypackage
+>>> pprint.(dir(pypackage))
+['__all__',
+ '__builtins__',
+ '__doc__',
+ '__file__',
+ '__name__',
+ '__package__',
+ '__path__',
+ 'one',
+ 'pypackage',
+ 'two',
+ 'urls',
+ 'x']
+>>> pypackage.urls()
+['http://localhost/api/v1.0/pypackage.one', 'http://localhost/api/v2.0/pypackage.two']
+>>>
+{% endhighlight %}
+
+Oops, it's 430am. Time to crash before work in.... 3.5 hours. :( :( :(
