@@ -78,7 +78,7 @@ Now you can do cool things like this:
 import types
 from pprint import pprint
 animals = [{u'required': True, u'type': u'string', u'name': u'party[drinks][whiskey]'},
-{u'required': True, u'type': u'string', u'name': u'party[drinks][miller_lite]'},
+{u'required': True, u'type': u'string', u'name': u'party[drinks][wine_cooler]'},
 {u'required': True, u'type': u'string', u'name': u'party[lights][strobe]'},
 {u'required': True, u'type': u'string', u'name': u'party[basement][girls_is]'}]
 
