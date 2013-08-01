@@ -5,7 +5,7 @@ date: 2013-07-26 03:27:21
 categories: 
 ---
 
-So in writing my argparse api client beast, I ended up with a few interesting algorithms for matching dictionary representations of json schema that can be used for other things. 
+So in writing my argparse api client, I ended up with a few interesting algorithms for matching dictionary representations of json schema that can be used for other things. I replaced a lot of the data and give-aways with kesha lyrics, so please enjoy ;)
 
 
 The problem: The api definition flattens elements.
