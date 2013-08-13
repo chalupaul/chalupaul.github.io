@@ -122,7 +122,8 @@ Right. Both Ubuntu and RedHat effectively disable this feature by explicitely se
 
 {% highlight console %}
 $ grep daemon /etc/init.d/openstack-nova-network
-    daemon --user nova --pidfile $pidfile "$exec --config-file $config --logfile $logfile &>/dev/null & echo \$! > $pidfile"
+    daemon --user nova --pidfile $pidfile "$exec --config-file $config \
+    --logfile $logfile &>/dev/null & echo \$! > $pidfile"
 $
 {% endhighlight %}
 
