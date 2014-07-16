@@ -1,5 +1,5 @@
 name: blog.chalupaul.com
 description: chalupaul's blog
 url: http://chalupaul.github.io
-pygments: true
+highlighter: pygments
 paginate: 10
