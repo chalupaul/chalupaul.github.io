@@ -90,9 +90,9 @@ function is_tunnel_established {
 
 5) Finally, go download [controlplane][cp_link] and set it up to run that script when you're at a location that you need to be tunneled (you can do all sorts of things with that app). I just have it run the script every time it detects a location change (including on startup).
 
-6) The last step is to set up iTerm2 to launch $HOME/bin/proxyshell.sh instead of a login shell, and you're good to go.
+6) The last step is to set up iTerm2 to launch $HOME/bin/proxyshell.sh instead of a login shell, and you're good to go. If you don't want every process to be a child process of proxychains (this is very understandable if they have weird networking things that are lame like Preview.app and just won't run right), you can skip this step and just run proxyshell.sh in your current terminal to "turn it on". So the ssh tunnel will just sit there in the background.
 
-Now every shell command you fire off will automagically use the tunnel if you're in a location where you can reach the bastion\_server.
+Now every shell command you fire off will automagically use the tunnel if you're in a location where you can reach the bastion\_server. 
 
 
 
