@@ -84,7 +84,8 @@ function is_tunnel_established {
  {% highlight bash %}
  #!/bin/bash -l
  source $HOME/bin/proxyfuncs.sh
- [[ $(is_tunnel_established) == true ]] && kill `ps auxwww | grep ssh | grep $bastion_server | awk '{print $2}'`
+ [[ $(is_tunnel_established) == true ]] \
+ && kill `ps auxwww | grep ssh | grep $bastion_server | awk '{print $2}'`
  {% endhighlight %}
 
 5) Finally, go download [controlplane][cp_link] and set it up to run that script when you're at a location that you need to be tunneled (you can do all sorts of things with that app). I just have it run the script every time it detects a location change (including on startup).

@@ -3,3 +3,4 @@ description: chalupaul's blog
 url: http://chalupaul.github.io
 highlighter: pygments
 paginate: 10
+markdown: kramdown
