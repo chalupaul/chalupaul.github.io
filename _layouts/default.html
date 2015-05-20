@@ -35,6 +35,15 @@
               <p>
                 <span class="sexy-line"></span>
               </p>
+			  <p>
+				  Blog Categories:<br />
+				  {% for cat in site.categories %}
+				  {% assign current_category = cat | first %}
+				  <a href="/{{current_category }}/">{{current_category}}</a> ({{ site.categories.[current_category] | size }})<br />
+				  {% endfor %}
+			  <p>
+				<span class="sexy-line"></span>
+			  </p>
               <p>
                 Reach me here:<br />
                 <div class="float-left">
