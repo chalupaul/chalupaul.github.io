@@ -7,7 +7,7 @@ title: chalupaul
   <h1 >Blog Posts <a id="rss_header" href="/rss/feed.xml">(rss)</a></h1>
   <ul class="posts">
     {% for post in paginator.posts %}
-      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
+      {% include post_index_entry.html %}
     {% endfor %}
   </ul>
 </div>

@@ -1,0 +1,11 @@
+{% assign url_parts = page.url | split: "/" %}
+{% assign current_category = url_parts[1] %}
+<div id="home">
+  <h1 >{{current_category}} blog posts: </h1>
+  <ul class="posts">
+    {% for post in site.categories.[current_category] %}
+      {% include post_index_entry.html %}
+    {% endfor %}
+  </ul>
+</div>
+
