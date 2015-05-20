@@ -2,6 +2,7 @@
 layout: post
 title: "Silly Api Designs"
 date: 2013-08-01 15:31:26
+published: true
 categories: [tech]
 tags: [python, api, json]
 ---

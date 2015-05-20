@@ -2,6 +2,7 @@
 layout: post
 title: "Interesting Algorithms"
 date: 2013-07-26 03:27:21
+published: true
 categories: [tech]
 tags: [python]
 ---

@@ -2,6 +2,7 @@
 layout: post
 title: "murder she bittorrented"
 date: 2013-10-18 14:20:30
+published: true
 categories: [tech]
 tags: [python, sysadmin]
 ---
