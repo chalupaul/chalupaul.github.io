@@ -2,7 +2,8 @@
 layout: post
 title: "The Problem with Proxies"
 date: 2014-07-16 01:57:17
-categories: 
+categories: [tech]
+tags: [infosec, ssh]
 ---
 
 I gotta hand it to the infosec guys. It has got to be hard to feign interest in security as hard as they do--year after year writing papers about warnings that nobody cares about. But then something like heartbleed comes out and they're all, "I TOLD YOU SO!"

@@ -2,7 +2,8 @@
 layout: post
 title: "The Trouble with Distros"
 date: 2013-08-12 15:07:14
-categories: 
+categories: [tech]
+tags: [openstack, python]
 ---
 
 OpenStack is a config management nightmare. It's a beast of a system, with hundreds of options for each project. It is unmanagable without Puppet or Chef (I haven't used any of the 3rd wave config management stuff yet). There's quite a few (though I'll stick with 3 for the sake of this: RPC from Rackspace, RDO from RedHat, and Fuel from Mirantis), but by definiton, pre-boxed config managed environments suffer from one huge probelm:

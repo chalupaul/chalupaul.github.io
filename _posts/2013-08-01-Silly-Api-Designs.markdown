@@ -2,7 +2,8 @@
 layout: post
 title: "Silly Api Designs"
 date: 2013-08-01 15:31:26
-categories: 
+categories: [tech]
+tags: [python, api, json]
 ---
 
 In my last post, I mentioned that this api flattens elements, and it has been causing me no end of problems (besides having to write specialized recursive functions to handle them instead of simple for loops).

@@ -2,7 +2,8 @@
 layout: post
 title: "ruby games"
 date: 2013-08-25 12:23:03
-categories: 
+categories: [tech]
+tags: [fun, ruby]
 ---
 
 Did you ever use RPG maker as a kid? It was a program where you could make tiny little sprite based RPGs. It had about every feature you could want. Tiled sprites,  map layers, characters, spells and items, dialog systems, and most importantly--a way to customize all sorts of things in "rpg script."

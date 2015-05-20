@@ -2,7 +2,8 @@
 layout: post
 title: "Python Package Loading"
 date: 2013-07-22 02:11:07
-categories: 
+categories: [tech]
+tags: [python]
 ---
 
 One of the things I find quite frustrating about python is the lack of decent module/package loading. To me, it feels like it started being almost strictly filesystem based, and then a ton of hacks were shoved in it to make it do other things. Hence, \_\_all\_\_ came to be. I mean, most of \_\_init\_\_.py is for weird reasons that other languages don't have.

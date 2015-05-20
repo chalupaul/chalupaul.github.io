@@ -2,7 +2,8 @@
 layout: post
 title: "murder she bittorrented"
 date: 2013-10-18 14:20:30
-categories: 
+categories: [tech]
+tags: [python, sysadmin]
 ---
 
 There's a rather well known project called [murder][murder] that was written originally by some folks at Twitter. It uses Bittorent to push files to a large amount of production servers. There's a [video][murdervid] explaining it with that oh-so-twitter baby blue color everywhere that you should totally watch if you want more info.
