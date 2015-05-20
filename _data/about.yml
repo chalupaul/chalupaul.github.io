@@ -1,0 +1,32 @@
+--- 
+default: 
+  intro: >
+    Hi. My name is Paul Sims. Glad to meet you. If this site 
+    seems to be all over the place, that's somewhat intentional.
+    I talk here about tech, RPG gaming, fishing, kayaking, 
+    gardening, fishing, cooking, and other things that interest
+    me.
+  details: >
+    If you're curious about the name "chalupaul", it's because
+    you can't spell chalupa without paul. 
+  
+dnd: 
+  intro: >
+    I play a pretty silly amount of role playing games. Mainly
+    Dungeons & Dragons 5e, Numenera, and various other systems.
+  details: >
+    Most of the info on this blog will be about my thoughts on
+    game systems--things I like, features that don't work so well,
+    etc.
+  
+tech:
+  intro: >
+    Half developer, half engineer--these days, I am focused on
+    integrating infrastructure and applications with OpenStack,
+    specifically targeting solutions for enterprises who are
+    hitting hurdles adopting cloud computing.
+  details: >
+    I am passionate about transforming all areas of traditional 
+    IT into cloud models, such as evolving cloud application design,
+    using DevOps for continuous product delivery and designing
+    software-driven infrastructure.

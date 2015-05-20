@@ -21,25 +21,16 @@
               <div class="header">
                 <h1 class="title"><a href="/">{{ site.name }}</a></h1>
               </div>
-              
               {{ content }}
             </div>
             <div class="site-right">
               <img class="float-left" src="/images/me.png" alt="shoutface" height="100"
                    width="100" />
               <p>
-                Hi. My name is Paul Sims. Today, I am focused on
-                integrating infrastructure and applications with
-                OpenStack, specifically targeting solutions for
-                enterprises who are hitting hurdles adopting cloud
-                computing.
+				  {{ site.data.about.[page.category].intro | url_param_escape }}
               </p> 
               <p>
-                I am passionate about transforming all
-                areas of traditional IT into cloud models, such as
-                evolving cloud application design, using DevOps for
-                continuous product delivery and designing
-                software-driven infrastructure.
+                {{ site.data.about.[page.category].details | url_param_escape }}
               </p>
               <p>
                 <span class="sexy-line"></span>
