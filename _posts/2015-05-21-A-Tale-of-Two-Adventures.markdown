@@ -3,7 +3,7 @@ layout: post
 title: "A Tale of Two Adventures"
 date: 2015-05-21 01:10:22
 published: false
-categories: [dnd]
+category: dnd
 tags: [5e, rpg, adventurers leage, game design]
 ---
 

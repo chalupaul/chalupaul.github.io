@@ -3,7 +3,7 @@ layout: post
 title:  "github pages"
 published: true
 date:   2013-06-28 12:15:29
-categories: [tech]
+category: tech
 tags: [github]
 ---
 

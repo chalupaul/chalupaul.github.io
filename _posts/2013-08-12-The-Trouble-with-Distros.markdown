@@ -3,7 +3,7 @@ layout: post
 title: "The Trouble with Distros"
 date: 2013-08-12 15:07:14
 published: true
-categories: [tech]
+category: tech
 tags: [openstack, python]
 ---
 

@@ -3,7 +3,7 @@ layout: post
 title: "The Problem with Proxies"
 date: 2014-07-16 01:57:17
 published: true
-categories: [tech]
+category: tech
 tags: [infosec, ssh]
 ---
 

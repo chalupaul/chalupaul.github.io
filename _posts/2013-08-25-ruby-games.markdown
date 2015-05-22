@@ -3,7 +3,7 @@ layout: post
 title: "ruby games"
 date: 2013-08-25 12:23:03
 published: true
-categories: [tech]
+category: tech
 tags: [fun, ruby]
 ---
 

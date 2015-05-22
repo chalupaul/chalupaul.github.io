@@ -3,7 +3,7 @@ layout: post
 title: "Python Argparse"
 date: 2013-07-02 14:53:49
 published: true
-categories: [tech]
+category: tech
 tags: [python]
 ---
 
