@@ -92,7 +92,7 @@ header a, a:visited {
 .clouds{
     background:transparent url(../images/clouds.png);
     z-index:3;
-    background-repeat: repeat-x
+    background-repeat: repeat-x;
 
   -moz-animation:move-clouds-back 200s linear infinite;
   -ms-animation:move-clouds-back 200s linear infinite;
