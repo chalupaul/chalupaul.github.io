@@ -205,7 +205,7 @@ span[class^='cta']:before {
 
 html, body {
   height: 100%;
-  width: 800px;
+  width: 100%;
 }
 
 body {
