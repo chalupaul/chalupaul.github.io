@@ -3,7 +3,7 @@ layout: post
 title: "The Death Yoyo"
 date: 2015-05-21 15:50:24
 published: true
-category: d&d
+category: ttrpg 
 tags: [5e, rpg, game design]
 ---
 
