@@ -21,3 +21,7 @@ If you've ever played games like [Pulsar] or [We Need To Go Deeper], you'll get 
 But then I screwed up. Partially, that's because the game evolved. The stats I have are might, finesse, guts, wits, and renown. I was never really happy with them. In retrospect, I should have made them might, finesse, focus, science, and engineering. That would encompass ship combat and away missions, and not fall into the "social stat" trap that renown is somewhat gravitating to. It also puts this system fairly in the cyberpunk + star trek realm, which I think is fair. It may be worth shedding some ansilary items for more in-theme ones like cybernetic implants and astrometrics modules and dropping the psionic stuff.
 
 All in all, it was a fun one-session game and the players actually wanted to keep going despite already being 30 minutes over when we stopped. Next month, I have some ideas around a real horror game, one that isn't survival based so much as it is actual horror.
+
+[Margin of Error]: http://blog.chalupaul.com/space/
+[Pulsar]: https://store.steampowered.com/app/252870/PULSAR_Lost_Colony/
+[We Need To Go Deeper]: https://store.steampowered.com/app/307110/We_Need_To_Go_Deeper/
