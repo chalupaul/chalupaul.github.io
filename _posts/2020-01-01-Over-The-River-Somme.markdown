@@ -18,3 +18,4 @@ So I came up with another small game for small adventures and adventurers. Over 
 
 [A Plague Tale: Innocence]: https://store.steampowered.com/app/752590/A_Plague_Tale_Innocence/
 [The VVitch]: https://www.imdb.com/title/tt4263482/
+[Over the River Somme]: http://blog.chalupaul.com/somme/
