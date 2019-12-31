@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Margin of Error"
-date: 2020-01-01 02:45:57
+date: 2019-08-14 02:45:57
 published: true
 category: ttrpg
 tags: [game of the month, game design, rpg]
