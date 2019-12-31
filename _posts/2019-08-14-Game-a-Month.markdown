@@ -22,6 +22,6 @@ But then I screwed up. Partially, that's because the game evolved. The stats I h
 
 All in all, it was a fun one-session game and the players actually wanted to keep going despite already being 30 minutes over when we stopped. Next month, I have some ideas around a real horror game, one that isn't survival based so much as it is actual horror.
 
-[Margin of Error]: http://blog.chalupaul.com/space/
+[Margin of Error]: http://blog.chalupaul.com/gotm/space/
 [Pulsar]: https://store.steampowered.com/app/252870/PULSAR_Lost_Colony/
 [We Need To Go Deeper]: https://store.steampowered.com/app/307110/We_Need_To_Go_Deeper/

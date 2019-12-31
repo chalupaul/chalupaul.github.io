@@ -1,89 +1,95 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title>{{ page.title }}</title>
-        <meta name="viewport" content="width=device-width">
 
-        <!-- syntax highlighting CSS -->
-        <link rel="stylesheet" href="/css/syntax.css">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>{{ page.title }}</title>
+  <meta name="viewport" content="width=device-width">
 
-        <!-- Custom CSS -->
-        <link rel="stylesheet" href="/css/main.css">
+  <!-- syntax highlighting CSS -->
+  <link rel="stylesheet" href="/css/syntax.css">
 
-    </head>
-    <body>
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="/css/main.css">
 
-        <div class="container">
-          <div class="site">
-            <div class="site-left">
-              <div class="header">
-                <h1 class="title"><a href="/">{{ site.name }}</a></h1>
-              </div>
-              {{ content }}
-            </div>
-            <div class="site-right">
-              <img class="float-left" src="/images/me.png" alt="shoutface" height="100"
-                   width="100" />
-              <p>
-				  {{ site.data.about.[page.category].intro | url_param_escape }}
-              </p>
-              <p>
-                {{ site.data.about.[page.category].details | url_param_escape }}
-              </p>
-              <p>
-                <span class="sexy-line"></span>
-              </p>
-			  <p>
-          Game of the Month<br />
-          <a href="/space">Margin of Error</a>: A survival horror space game with pretty decent ship combat.
-        </p>
-	    <p>
-			<span class="sexy-line"></span>
-	    </p>
+</head>
+
+<body>
+
+  <div class="container">
+    <div class="site">
+      <div class="site-left">
+        <div class="header">
+          <h1 class="title"><a href="/">{{ site.name }}</a></h1>
+        </div>
+        {{ content }}
+      </div>
+      <div class="site-right">
+        <img class="float-left" src="/images/me.png" alt="shoutface" height="100" width="100" />
         <p>
-				  Blog Categories:<br />
-				  {% for cat in site.categories %}
-				  {% assign current_category = cat | first %}
-				  <a href="/{{current_category }}/">{{current_category}}</a> ({{ site.categories.[current_category] | size }})<br />
-				  {% endfor %}
+          {{ site.data.about.[page.category].intro | url_param_escape }}
         </p>
-			  <p>
-				<span class="sexy-line"></span>
-			  </p>
-              <p>
-                Reach me here:<br />
-                <div class="float-left">
-                  <a href="http://github.com/chalupaul/">github</a><br />
-                  <a href="http://www.linkedin.com/profile/view?id=62710017">
-                    linkedin</a><br />
-                  <a href="http://twitter.com/chalupaul">twitter</a><br />
-                </div>
-                <div class="float-right">
-                  <a href="/resume/resume.pdf">my resume</a><br />
-                  <a href="/resume/gpg_pub_key.txt">my gpg public
-                    key</a><br />
-                  <a href="https://coderwall.com/chalupaul">coderwall</a><br />
-                </div>
-              </p>
-            </div>
-            <div class="footer">
-            </div>
+        <p>
+          {{ site.data.about.[page.category].details | url_param_escape }}
+        </p>
+        <p>
+          <span class="sexy-line"></span>
+        </p>
+        <p>
+          Game of the Month<br />
+          <a href="/gotm/space">Margin of Error</a>: A survival horror space game with pretty decent ship combat. <br />
+          <a href="/gotm/somme">Over the River Somme</a>: A small adventure for small adventurers. <br />
+        </p>
+        <p>
+          <span class="sexy-line"></span>
+        </p>
+        <p>
+          Blog Categories:<br />
+          {% for cat in site.categories %}
+          {% assign current_category = cat | first %}
+          <a href="/{{current_category }}/">{{current_category}}</a>
+          ({{ site.categories.[current_category] | size }})<br />
+          {% endfor %}
+        </p>
+        <p>
+          <span class="sexy-line"></span>
+        </p>
+        <p>
+          Reach me here:<br />
+          <div class="float-left">
+            <a href="http://github.com/chalupaul/">github</a><br />
+            <a href="http://www.linkedin.com/profile/view?id=62710017">
+              linkedin</a><br />
+            <a href="http://twitter.com/chalupaul">twitter</a><br />
           </div>
-        </div> <!-- /container -->
-<div id="google">
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new
-  Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+          <div class="float-right">
+            <a href="/resume/resume.pdf">my resume</a><br />
+            <a href="/resume/gpg_pub_key.txt">my gpg public
+              key</a><br />
+            <a href="https://coderwall.com/chalupaul">coderwall</a><br />
+          </div>
+        </p>
+      </div>
+      <div class="footer">
+      </div>
+    </div>
+  </div> <!-- /container -->
+  <div id="google">
+    <script>
+      (function (i, s, o, g, r, a, m) {
+        i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+          (i[r].q = i[r].q || []).push(arguments)
+        }, i[r].l = 1 * new
+          Date(); a = s.createElement(o),
+            m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+      })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
 
-  ga('create', 'UA-10616191-3', 'chalupaul.com');
-  ga('send', 'pageview');
+      ga('create', 'UA-10616191-3', 'chalupaul.com');
+      ga('send', 'pageview');
 
-</script>
-</div>
-    </body>
+    </script>
+  </div>
+</body>
+
 </html>
