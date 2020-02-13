@@ -12,7 +12,7 @@ task :post do
         post.puts "title: \"#{title}\""
         post.puts "date: #{Time.now.strftime('%Y-%m-%d %H:%M:%S')}"
 	post.puts "published: false"
-        post.puts "categories: #{categories}"
+        post.puts "categories: #{category}"
         post.puts "tags: #{tags}"
         post.puts "---"
         post.puts "\nYour content here."
