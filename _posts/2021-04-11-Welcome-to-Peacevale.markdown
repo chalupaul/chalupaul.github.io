@@ -21,6 +21,6 @@ A couple things about cosmic horror that I think is missed (by like, everything)
 
 Steampunk in many ways is opposite of an elder gods game. It's empowered, and highly individualized. The technology is indistinguishable from magic (and in some settings actually is), and practically science fiction itself. There is certainly a significant amount of genre tension between Steampunk and Call of Cthulhu. But this tension I think is pretty neat. You can be completely empowered in your human interactions, and yet totally bewildered by the occult. Technology in Steampunk can surpass our own in many areas, and that will be no match for even the most meager eldritch horror. There's definitely something there in the tension.
 
-Anyway, this is the most complete work I've produced in a while and I think it has some promise. Please enjoy, [Welcome to Peacevale]. Drink responsibly.
+Anyway, this is the most complete work I've produced in a while and I think it has some promise. Please enjoy [Welcome to Peacevale]. Drink responsibly.
 
-[Welcome to Peacevale] (http://peacevale.rpg.chalupaul.com/)
+[Welcome to Peacevale]: http://peacevale.rpg.chalupaul.com/
