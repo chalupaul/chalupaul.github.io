@@ -1,0 +1,26 @@
+---
+layout: post
+title: "Welcome to Peacevale"
+date: 2021-04-11 23:20:44
+published: true
+category: ttrpg
+tags: [game of the month, game design, rpg]
+---
+
+Hello friends. Quarantine has been pretty lame. We're nearly out of it though. Just a bit longer.
+
+Sometime amidst the horrors of banal sameness of the last year and change, a friend of mine said to me, "You know, the lightweight tactical rpg game community is pretty undeserved." After a bit of clarification, I think he's right. Most lightweight games are intensely cinematic, and have very little tactics, and combat is basically a plot device to force players to squeeze out character development. These are really en vogue today too. These are categorically your Blades in the Dark, Dungeon World, and PbtA games. And while these games all have very novel mechanics that are truly inspired, they just aren't gamey enough to hold my interest. To me, when things aren't gamey enough, they like they lack cause and effect. The margins are just too big, and I end up getting bored and tuning out. And on the other end of the spectrum there are 5e and pf2, and well, I think we all know the difficulties in those designs.
+
+Tactical combat games have had their fair share of innovations as well, though the majority of these are one-and-done kickstarters these days. To me, the magic core of tactical combat games are limited player agency yielding to difficult choices, up front cause and effect sometimes requiring a restart of the level if the players or dice perform so poorly. That's another crucial aspect. Failure and success are a specturm here. In most ttrpgs, the only way to fail is with a TPK and failure in general is catastrophic. So this game needed a high degree of choice. I wanted a player to realize, "Hm. I rolled a 6, but I have 3 things I could spend it on." Those choices also needed to be meaningful. After all, opening one door is equivalent to closing the other 4 you could have chosen. And I knew I also wanted role playing choices to have the same weight. I wanted to strike a solid balance here between roleplaying and action, where neither serves the other but they aren't orthagonal either.
+
+So I started working out what I thought a good light weight RPG game would be. I've said for a while that I think board games make better rpgs than rpgs make board games, so I wanted to start with that approach. The game should feel like Descent, but have core roleplay elements that are mechanically enforced. Rules need to be in the ~10 page neighborhood, and it should be something non-fantasy so players don't fall so easily into their old pathfinder ways. And because we don't game nearly as much as we wish, the game ought to have near immediate character creation.
+
+The core mechanics basically wrote themselves. I'm a bit of a sucker for single polyhedral rolls, and I've been flirting with action points for quite some time as an alternative to traditional action economies. After writing a few permutations, I settled on a pretty brutal death spiral combat with the given component that it's pretty easy to figure the math out to know. In fact, there's no real reason not to tell players the targets openly.  Given the previous decisions, I was practically one tiny step away from cosmic horror. So that's fun.
+
+A couple things about cosmic horror that I think is missed (by like, everything). First, the story is really about character development and the monster is just a plot device. In fact, in most functional works of fiction in the genre, you could replace the monster with a toaster that always burns toast even on the lightest setting and it would probably still work. Secondly, the elder gods are ever present and transcendent but largley impotent. It almost hurts me to say that actually, but this is something you have to recognize. After all, if a world ender could actually show up, the game is definitely over. And finally, the infatuation with the 1920s kind of holds the genre back I think because we've moved so far beyond them technologically.  Look at how intensely scary The Thing is by comparison to horror movies set in mideval times. In my opinion, the only modern location for cosmic horror is outer space in the near but still impossible future of space travel (think Aliens). I didn't want to do another space game though, so I decided to cram steampunk into there.
+
+Steampunk in many ways is opposite of an elder gods game. It's empowered, and highly individualized. The technology is indistinguishable from magic (and in some settings actually is), and practically science fiction itself. There is certainly a significant amount of genre tension between Steampunk and Call of Cthulhu. But this tension I think is pretty neat. You can be completely empowered in your human interactions, and yet totally bewildered by the occult. Technology in Steampunk can surpass our own in many areas, and that will be no match for even the most meager eldritch horror. There's definitely something there in the tension.
+
+Anyway, this is the most complete work I've produced in a while and I think it has some promise. Please enjoy, [Welcome to Peacevale]. Drink responsibly.
+
+[Welcome to Peacevale] (http://peacevale.rpg.chalupaul.com/)
